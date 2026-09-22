@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="ChetnaStore - Modern online shopping store"
+    >
+
+    <title>ChetnaStore | Online Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header class="header">
+
+        <div class="container navbar">
+
+
+            <!-- LOGO -->
+
+            <a href="#home" class="logo">
+                chetna<span>store</span>
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="nav" id="nav">
+
+                <a href="#home">Home</a>
+
+                <a href="#products">Products</a>
+
+                <a href="#categories">Categories</a>
+
+                <a href="#about">About</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+
+            <!-- ACTIONS -->
+
+            <div class="nav-actions">
+
+
+                <!-- SEARCH -->
+
+                <button
+                    type="button"
+                    class="icon-btn"
+                    id="searchBtn"
+                    aria-label="Search"
+                >
+                    Search
+                </button>
+
+
+                <!-- CART -->
+
+                <button
+                    type="button"
+                    class="icon-btn cart-btn"
+                    id="cartBtn"
+                    aria-label="Shopping Cart"
+                >
+                    Cart
+
+                    <span id="cartCount">
+                        0
+                    </span>
+
+                </button>
+
+
+                <!-- MOBILE MENU -->
+
+                <button
+                    type="button"
+                    class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Open Menu"
+                >
+                    Menu
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         SEARCH
+    ========================================== -->
+
+    <section
+        class="search-section"
+        id="searchSection"
+    >
+
+        <div class="container">
+
+            <form id="searchForm">
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search products..."
+                    autocomplete="off"
+                >
+
+                <button type="submit">
+                    Search
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         MAIN
+    ========================================== -->
+
+    <main>
+
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="container hero-content">
+
+
+                <!-- HERO TEXT -->
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        WELCOME TO CHETNASTORE
+                    </p>
+
+
+                    <h1>
+                        Discover Products
+                        <span>You’ll Love.</span>
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Shop quality products at affordable
+                        prices and enjoy a simple,
+                        modern shopping experience.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#products"
+                            class="primary-btn"
+                        >
+                            Shop Now
+                        </a>
+
+
+                        <a
+                            href="#categories"
+                            class="secondary-btn"
+                        >
+                            Explore Categories
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- HERO IMAGE -->
+
+                <div class="hero-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=85"
+                        alt="Online shopping products"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             FEATURES
+        ====================================== -->
+
+        <section class="features">
+
+            <div class="container features-grid">
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        Delivery
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Fast Delivery
+                        </h3>
+
+                        <p>
+                            Quick and reliable delivery.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        Secure
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Secure Shopping
+                        </h3>
+
+                        <p>
+                            Safe and simple shopping.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        Quality
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Quality Products
+                        </h3>
+
+                        <p>
+                            Products selected with care.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        Support
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Customer Support
+                        </h3>
+
+                        <p>
+                            We are here to help.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CATEGORIES
+        ====================================== -->
+
+        <section
+            class="categories section"
+            id="categories"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        SHOP BY CATEGORY
+                    </p>
+
+                    <h2>
+                        Explore Categories
+                    </h2>
+
+                </div>
+
+
+
+                <div class="category-grid">
+
+
+                    <!-- FASHION -->
+
+                    <button
+                        type="button"
+                        class="category-card"
+                        data-category="Fashion"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=600&q=85"
+                            alt="Fashion"
+                        >
+
+                        <div class="category-content">
+
+                            <h3>
+                                Fashion
+                            </h3>
+
+                            <p>
+                                Clothes and style
+                            </p>
+
+                        </div>
+
+                    </button>
+
+
+
+                    <!-- ELECTRONICS -->
+
+                    <button
+                        type="button"
+                        class="category-card"
+                        data-category="Electronics"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=85"
+                            alt="Electronics"
+                        >
+
+                        <div class="category-content">
+
+                            <h3>
+                                Electronics
+                            </h3>
+
+                            <p>
+                                Technology and gadgets
+                            </p>
+
+                        </div>
+
+                    </button>
+
+
+
+                    <!-- ACCESSORIES -->
+
+                    <button
+                        type="button"
+                        class="category-card"
+                        data-category="Accessories"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=85"
+                            alt="Accessories"
+                        >
+
+                        <div class="category-content">
+
+                            <h3>
+                                Accessories
+                            </h3>
+
+                            <p>
+                                Everyday essentials
+                            </p>
+
+                        </div>
+
+                    </button>
+
+
+
+                    <!-- ALL -->
+
+                    <button
+                        type="button"
+                        class="category-card"
+                        data-category="All"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=85"
+                            alt="All Products"
+                        >
+
+                        <div class="category-content">
+
+                            <h3>
+                                All Products
+                            </h3>
+
+                            <p>
+                                View our collection
+                            </p>
+
+                        </div>
+
+                    </button>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             PRODUCTS
+        ====================================== -->
+
+        <section
+            class="products section"
+            id="products"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading products-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            OUR COLLECTION
+                        </p>
+
+                        <h2>
+                            Featured Products
+                        </h2>
+
+                    </div>
+
+
+                    <div class="product-controls">
+
+                        <select id="categoryFilter">
+
+                            <option value="All">
+                                All Categories
+                            </option>
+
+                            <option value="Fashion">
+                                Fashion
+                            </option>
+
+                            <option value="Electronics">
+                                Electronics
+                            </option>
+
+                            <option value="Accessories">
+                                Accessories
+                            </option>
+
+                        </select>
+
+
+
+                        <select id="sortProducts">
+
+                            <option value="default">
+                                Sort Products
+                            </option>
+
+                            <option value="low-high">
+                                Price: Low to High
+                            </option>
+
+                            <option value="high-low">
+                                Price: High to Low
+                            </option>
+
+                            <option value="name">
+                                Name: A-Z
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PRODUCT GRID -->
+
+                <div
+                    class="product-grid"
+                    id="productGrid"
+                >
+
+
+                    <!-- PRODUCT 1 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Fashion"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=85"
+                                alt="White T-Shirt"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Fashion
+                            </span>
+
+                            <h3 class="product-title">
+                                Classic White T-Shirt
+                            </h3>
+
+                            <p class="product-description">
+                                Comfortable everyday cotton t-shirt.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹699
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="1"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Fashion"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=85"
+                                alt="Denim Jacket"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Fashion
+                            </span>
+
+                            <h3 class="product-title">
+                                Denim Jacket
+                            </h3>
+
+                            <p class="product-description">
+                                Classic denim jacket for everyday style.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹1,499
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="2"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Fashion"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=85"
+                                alt="Running Shoes"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Fashion
+                            </span>
+
+                            <h3 class="product-title">
+                                Running Shoes
+                            </h3>
+
+                            <p class="product-description">
+                                Lightweight shoes for everyday activities.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹1,899
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="3"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 4 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Electronics"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85"
+                                alt="Smart Watch"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Electronics
+                            </span>
+
+                            <h3 class="product-title">
+                                Smart Watch
+                            </h3>
+
+                            <p class="product-description">
+                                Modern smartwatch with a clean design.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹2,499
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="4"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 5 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Electronics"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85"
+                                alt="Wireless Headphones"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Electronics
+                            </span>
+
+                            <h3 class="product-title">
+                                Wireless Headphones
+                            </h3>
+
+                            <p class="product-description">
+                                Comfortable wireless headphones.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹2,199
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="5"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 6 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Electronics"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=85"
+                                alt="Laptop"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Electronics
+                            </span>
+
+                            <h3 class="product-title">
+                                Modern Laptop
+                            </h3>
+
+                            <p class="product-description">
+                                Slim laptop for work and everyday use.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹45,999
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="6"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 7 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Accessories"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=85"
+                                alt="Backpack"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Accessories
+                            </span>
+
+                            <h3 class="product-title">
+                                Everyday Backpack
+                            </h3>
+
+                            <p class="product-description">
+                                Spacious backpack for daily essentials.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹999
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="7"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 8 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Accessories"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=700&q=85"
+                                alt="Sunglasses"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Accessories
+                            </span>
+
+                            <h3 class="product-title">
+                                Classic Sunglasses
+                            </h3>
+
+                            <p class="product-description">
+                                Simple and stylish sunglasses.
+                            </p>
+
+
+                            <div class="product-bottom">
+
+                                <strong class="product-price">
+                                    ₹799
+                                </strong>
+
+                                <button
+                                    type="button"
+                                    class="add-cart-btn"
+                                    data-id="8"
+                                >
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+
+
+                <!-- NO PRODUCTS -->
+
+                <div
+                    class="no-products"
+                    id="noProducts"
+                    hidden
+                >
+
+                    <h3>
+                        No products found
+                    </h3>
+
+                    <p>
+                        Try another search or category.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             OFFER
+        ====================================== -->
+
+        <section class="offer-section">
+
+            <div class="container">
+
+                <div class="offer-card">
+
+
+                    <div class="offer-content">
+
+                        <p class="eyebrow">
+                            SPECIAL COLLECTION
+                        </p>
+
+                        <h2>
+                            Great Products.
+                            Great Prices.
+                        </h2>
+
+                        <p>
+                            Discover something new for your
+                            everyday shopping.
+                        </p>
+
+                        <a
+                            href="#products"
+                            class="primary-btn"
+                        >
+                            Shop Collection
+                        </a>
+
+                    </div>
+
+
+                    <div class="offer-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=800&q=85"
+                            alt="Shopping collection"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             ABOUT
+        ====================================== -->
+
+        <section
+            class="about section"
+            id="about"
+        >
+
+            <div class="container about-content">
+
+
+                <div class="about-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=85"
+                        alt="Online shopping"
+                    >
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <p class="eyebrow">
+                        ABOUT CHETNASTORE
+                    </p>
+
+                    <h2>
+                        Simple Shopping,
+                        Better Experience.
+                    </h2>
+
+                    <p>
+                        ChetnaStore is a modern e-commerce
+                        website created to provide a clean,
+                        simple and user-friendly shopping
+                        experience.
+                    </p>
+
+                    <p>
+                        Browse products, search by category,
+                        add items to your cart and manage
+                        your shopping easily.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CONTACT
+        ====================================== -->
+
+        <section
+            class="contact section"
+            id="contact"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        GET IN TOUCH
+                    </p>
+
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                </div>
+
+
+
+                <form
+                    class="contact-form"
+                    id="contactForm"
+                >
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="contactName">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="contactName"
+                                placeholder="Your name"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <div class="form-group">
+
+                            <label for="contactEmail">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="contactEmail"
+                                placeholder="Your email"
+                                required
+                            >
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="contactMessage">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="contactMessage"
+                            rows="5"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+
+                    <button
+                        type="submit"
+                        class="primary-btn"
+                    >
+                        Send Message
+                    </button>
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         CART SIDEBAR
+    ========================================== -->
+
+    <aside
+        class="cart-sidebar"
+        id="cartSidebar"
+        aria-hidden="true"
+    >
+
+
+        <div class="cart-header">
+
+            <h2>
+                Your Cart
+            </h2>
+
+            <button
+                type="button"
+                class="close-btn"
+                id="closeCart"
+                aria-label="Close Cart"
+            >
+                Close
+            </button>
+
+        </div>
+
+
+
+        <div
+            class="cart-items"
+            id="cartItems"
+        ></div>
+
+
+
+        <div
+            class="empty-cart"
+            id="emptyCart"
+        >
+
+            <h3>
+                Your cart is empty
+            </h3>
+
+            <p>
+                Add products to your cart.
+            </p>
+
+        </div>
+
+
+
+        <div class="cart-footer">
+
+
+            <div class="cart-total">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cartTotal">
+                    ₹0
+                </strong>
+
+            </div>
+
+
+
+            <button
+                type="button"
+                class="primary-btn checkout-btn"
+                id="checkoutBtn"
+            >
+                Checkout
+            </button>
+
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- CART OVERLAY -->
+
+    <div
+        class="cart-overlay"
+        id="cartOverlay"
+    ></div>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+
+            <div>
+
+                <a
+                    href="#home"
+                    class="logo"
+                >
+                    chetna<span>store</span>
+                </a>
+
+                <p>
+                    Simple shopping. Better experience.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#products">
+                    Products
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 ChetnaStore. All rights reserved.
+            </p>
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
